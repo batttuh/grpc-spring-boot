@@ -38,9 +38,13 @@ public final class Schema {
       "\r\n\005pages\030\004 \001(\005\022\021\n\tauthor_id\030\005 \001(\005\"c\n\006Aut" +
       "hor\022\021\n\tauthor_id\030\001 \001(\005\022\022\n\nfirst_name\030\002 \001" +
       "(\t\022\021\n\tlast_name\030\003 \001(\t\022\016\n\006gender\030\004 \001(\t\022\017\n" +
-      "\007book_id\030\005 \001(\0052F\n\021BookAuthorService\0221\n\tg" +
-      "etAuthor\022\020.com.grpc.Author\032\020.com.grpc.Au" +
-      "thor\"\000B\002P\001b\006proto3"
+      "\007book_id\030\005 \001(\0052\366\001\n\021BookAuthorService\0221\n\t" +
+      "getAuthor\022\020.com.grpc.Author\032\020.com.grpc.A" +
+      "uthor\"\000\0227\n\017getBookByAuthor\022\020.com.grpc.Au" +
+      "thor\032\016.com.grpc.Book\"\0000\001\0226\n\020getExpensive" +
+      "Book\022\016.com.grpc.Book\032\016.com.grpc.Book\"\000(\001",
+      "\022=\n\025getBookByAuthorGender\022\016.com.grpc.Boo" +
+      "k\032\016.com.grpc.Book\"\000(\0010\001B\002P\001b\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

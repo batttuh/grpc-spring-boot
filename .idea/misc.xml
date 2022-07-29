@@ -7,6 +7,7 @@
         <option value="$PROJECT_DIR$/grpc/pom.xml" />
         <option value="$PROJECT_DIR$/proto/pom.xml" />
         <option value="$PROJECT_DIR$/grpc-service/pom.xml" />
+        <option value="$PROJECT_DIR$/client-service/pom.xml" />
       </list>
     </option>
   </component>
